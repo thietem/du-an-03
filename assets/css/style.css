@@ -29,7 +29,7 @@ a {
 }
 .btn {
   min-width: 205px;
-  line-height: 60px;
+  /* line-height: 60px; */
   border-radius: 999px;
   background: #2e80ce;
   color: #fff;
@@ -158,6 +158,9 @@ a {
 }
 .hero__content {
   width: 44%;
+}
+.btn {
+  padding: 15px;
 }
 .hero__media {
   flex: 1;
@@ -385,6 +388,9 @@ a {
 .team-header {
   text-align: center;
   margin: 0 auto;
+}
+.team-header__heading {
+  margin-bottom: 25px;
 }
 .team__cta {
   margin-top: 38px;
@@ -695,15 +701,4 @@ a {
   font-size: 1.4rem;
   line-height: 1.86;
   padding: 28px 0 42px;
-}
-/* aos */
-[data-aos] {
-  visibility: hidden;
-}
-[data-aos].animate__animated {
-  visibility: visible;
-}
-.work .section-heading {
-  animation-iteration-count: infinite;
-  animation-delay: 1s;
 }
